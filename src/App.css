@@ -10,10 +10,10 @@
   
   [data-theme='dark'] {
     --background-color: #020101;
-    --btn-color: #ffffffcb;
+    --btn-color: #b8ffff;
     --btn-text-color: #120f2e;
     --project-card-bg: #fff;
-    --text-color: #c8acf3;
+    --text-color: #b8ffff;
     --form-text-color: #fff;
     --footer-text-color: #bbb;
   }
