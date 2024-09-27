@@ -1,5 +1,6 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/hero-img.png'
+// import heroImg from '../../assets/hero-img.png'
+import wall from '../../assets/wall.png'
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -26,7 +27,7 @@ function Hero() {
   return (
     <section id='hero' className= {styles.container}>
         <div className= {styles.colorModeContainer}>
-            <img className = {styles.hero} src={heroImg} alt="profile picture" />
+            <img className = {styles.hero} src={wall} alt="profile picture" />
             <img className = {styles.colorMode} src={themeIcon} alt="" onClick={toggleTheme} />
         </div>
 
