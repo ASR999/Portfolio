@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    text-align: center;
+    justify-content:end;
+    padding: 13px;  
+    gap: 20px;
+    background-color:#6ae9e3;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    
+    a{
+      text-decoration: none;
+    }
+    p {
+      
+      font-size: 17px;
+      color: rgb(50, 41, 41);
+      font-weight:600;
+    }
+    .contact{
+      margin-right: 30px;
+    }
+
+  }
