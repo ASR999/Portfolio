@@ -9,7 +9,8 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf'
+
+import Resume from '../../assets/Resume 2024.pdf'
 import { useTheme } from '../../common/ThemeContext'
 import leetcodewhite from '../../assets/brand-leetcode.png'
 import leetcodeblack from '../../assets/leetcode.svg'
@@ -53,7 +54,7 @@ function Hero() {
         Crafting digital solutions that blend creativity with precision, yours truly thrives on building seamless, scalable applications. With a diverse portfolio majoring in web development, the work stands out for its blend of artistry and engineering.
         </p>
 
-        <a href={CV} download>
+        <a href={Resume} download>
             <button className='hover' download>Resume</button>
         </a>
     </section>
